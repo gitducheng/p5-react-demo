@@ -9,13 +9,6 @@ export default class Background {
 
     this.sketch.loadImage(bgImgUrl, (img) => {
       this.sketch.background(img)
-      // this.sketch.image(
-      //   img,
-      //   0,
-      //   0,
-      //   this.sketch.windowWidth,
-      //   this.sketch.windowHeight
-      // )
     })
   }
 
